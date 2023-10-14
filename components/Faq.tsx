@@ -57,7 +57,7 @@ const faqs = [
 
 export default function Faq() {
   return (
-    <div className="mt-32 section">
+    <div className="mt-32 section" id="faq">
       <div className="sm:text-5xl text-4xl text-center">Frequently asked questions</div>
       <p className="text-center text-lg text-neutral-400 mt-6">
         If you can&apos;t find what you&apos;re looking for, email us and we&apos;ll get back to you.

@@ -7,7 +7,7 @@ const faqs = [
         "The MultiversX network natively supports the issuance of custom tokens, without the need for contracts such as ERC20, but addressing the same use-cases. And due to the native in-protocol support, transactions with custom tokens do not require the VM at all. In effect, this means that custom tokens are as fast and as scalable as the native EGLD token itself.",
     },
     {
-      question: "How does ESDT streaming works?",
+      question: "How does token streaming works?",
       answer:
         "You define an amount of tokens to be distributed in a specific time period. During that period, tokens unlock each second and the recipient is able to claim them whenever he wants.",
     },
@@ -19,11 +19,11 @@ const faqs = [
   ],
   [
     {
-      question: "How can I start streaming ESDTs?",
+      question: "How can I start streaming tokens?",
       answer: `You need to connect your wallet on ${APP_NAME}, click on the Create Stream button, fill in the recipient, amount of tokens and the duration, click the button and sign the transaction. That's it!`,
     },
     {
-      question: "Where are the ESDTs held?",
+      question: "Where are the tokens held?",
       answer: "From the deposit until the recipient claims them, the token are locked inside our smart contract.",
     },
     {
@@ -45,8 +45,7 @@ const faqs = [
     },
     {
       question: `What do I need to use ${APP_NAME}?`,
-      answer:
-        "A computer with internet connection, and a MultiversX Wallet with some ESDT tokens that you want to stream.",
+      answer: "A computer with internet connection, and a MultiversX Wallet with some tokens that you want to stream.",
     },
     {
       question: `Is the ${APP_NAME} protocol decentralized?`,

@@ -11,7 +11,10 @@ export default function Team() {
             <div className="mt-4 mb-6 text-4xl">Alexandra Nadia Bălan</div>
             <div className="flex items-center justify-between">
               <div className="font-medium text-primary text-sm">Marketing specialist</div>
-              <div className="flex items-center space-x-4">
+              <div className="flex items-center space-x-3">
+                <a href="https://twitter.com/AlexandraNadia9" target="_blank">
+                  <img src="/team/twitter.svg" />
+                </a>
                 <a href="https://www.linkedin.com/in/alexandra-nadia-balan-7705611b4/" target="_blank">
                   <img src="/team/linkedin.svg" />
                 </a>
@@ -29,7 +32,10 @@ export default function Team() {
             </div>
             <div className="flex items-center justify-between">
               <div className="font-medium text-primary text-sm">Software Engineer</div>
-              <div className="flex items-center space-x-4">
+              <div className="flex items-center space-x-3">
+                <a href="https://twitter.com/StatescuRazvan" target="_blank">
+                  <img src="/team/twitter.svg" />
+                </a>
                 <a href="https://www.linkedin.com/in/razvanstatescu/" target="_blank">
                   <img src="/team/linkedin.svg" />
                 </a>
@@ -47,7 +53,7 @@ export default function Team() {
             </div>
             <div className="flex items-center justify-between">
               <div className="font-medium text-primary text-sm">UX specialist</div>
-              <div className="flex items-center space-x-4">
+              <div className="flex items-center space-x-3">
                 <a href="https://www.linkedin.com/in/valeriumoldovan/" target="_blank">
                   <img src="/team/linkedin.svg" />
                 </a>

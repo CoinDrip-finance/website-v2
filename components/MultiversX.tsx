@@ -9,7 +9,7 @@ export default function MultiversX() {
         </div>
       </div>
       <p className="text-center text-lg text-neutral-400 mt-4 mb-8 sm:mb-16">
-        CoinDrip is compatible with EGLD or any ESDT like USDC.
+        CoinDrip is compatible with EGLD or any token like USDC.
       </p>
 
       <div className="flex items-center sm:space-x-16 flex-col sm:flex-row space-y-7 sm:space-y-0">
@@ -27,11 +27,11 @@ export default function MultiversX() {
           className="w-full sm:w-1/3 flex-1 order-first sm:order-none"
         />
         <div className="flex-1">
-          <div className="text-sm text-primary mb-3">Scalable</div>
-          <div className="text-3xl mb-3">Adaptive state sharding</div>
+          <div className="text-sm text-primary mb-3">Low fees</div>
+          <div className="text-3xl mb-3">Elrond Standard Digital Token (ESDT)</div>
           <p className="text-neutral-400">
-            Adaptive State Sharding brings a 1000x improvement in throughput compared to previous blockchain iterations
-            by enabling parallel transaction processing.
+            The ESDT token model enables true ownership of assets, advanced programmability, and low transfer fees,
+            making it an essential foundation for building more efficient and robust DeFi products.
           </p>
         </div>
       </div>

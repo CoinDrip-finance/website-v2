@@ -5,6 +5,7 @@ const nextConfig = {
   sassOptions: {
     includePaths: [path.join(__dirname, "styles")],
   },
+  transpilePackages: ["react-tweet"],
 };
 
 module.exports = nextConfig;

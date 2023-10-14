@@ -1,10 +1,10 @@
-import { BanknotesIcon, BoltIcon, DocumentChartBarIcon } from '@heroicons/react/24/outline';
+import { BanknotesIcon, BoltIcon, DocumentChartBarIcon } from "@heroicons/react/24/outline";
 
 export default function Features() {
   return (
-    <div className="section my-40">
-      <div className="flex justify-between space-x-64">
-        <div className="text-5xl flex-shrink-0 ">
+    <div className="section mt-14 sm:my-40">
+      <div className="flex sm:justify-between sm:space-x-64 flex-col sm:flex-row space-y-8 sm:space-y-0">
+        <div className="sm:text-5xl text-4xl flex-shrink-0">
           <div className="bg-gradient-to-br from-primary via-[#B6F7F2] to-white bg-clip-text">
             Stream <span className="text-transparent">tokens</span>
             <br />
@@ -23,7 +23,7 @@ export default function Features() {
         </div>
       </div>
 
-      <div className="mt-24 flex space-x-9">
+      <div className="mt-14 sm:mt-24 flex sm:space-x-9 flex-col sm:flex-row space-y-6 sm:space-y-0">
         <div className="flex-1">
           <div className="w-full rounded-2xl bg-gradient-to-bl from-[#010D0C] to-[#027B72] p-[2px]">
             <div className="flex flex-col items-start h-full w-full bg-gradient-to-b to-[#013C38] via-black from-black rounded-2xl p-11 space-y-7">

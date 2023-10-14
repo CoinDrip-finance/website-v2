@@ -1,4 +1,4 @@
-import { APP_URL, V1_APP_URL } from "@/config";
+import { APP_URL, DOCS_URL } from "@/config";
 import { ArrowRightIcon } from "@heroicons/react/24/outline";
 
 export default function Header() {
@@ -22,12 +22,12 @@ export default function Header() {
           >
             Try Devnet demo
           </a>
-          {/* <a href={DOCS_URL} target="_blank" className="font-medium text-sm inline-flex items-center">
+          <a href={DOCS_URL} target="_blank" className="font-medium text-sm inline-flex items-center">
             Read docs <ArrowRightIcon className="h-4 w-4 ml-1" />
-          </a> */}
-          <a href={V1_APP_URL} target="_blank" className="font-medium text-sm inline-flex items-center">
-            Open CoinDrip V1 <ArrowRightIcon className="h-4 w-4 ml-1" />
           </a>
+          {/* <a href={V1_APP_URL} target="_blank" className="font-medium text-sm inline-flex items-center">
+            Open CoinDrip V1 <ArrowRightIcon className="h-4 w-4 ml-1" />
+          </a> */}
         </div>
 
         <img src="/header/app.png" alt="Coindrip App" className="mt-14 hidden sm:block" />

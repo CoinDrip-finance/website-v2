@@ -1,4 +1,4 @@
-import { APP_URL, V1_APP_URL } from "@/config";
+import { APP_URL } from "@/config";
 
 export default function Navbar() {
   return (
@@ -7,9 +7,9 @@ export default function Navbar() {
       <div className="section flex items-center justify-between py-12">
         <img src="/logo.svg" alt="Coindrip" className="h-8 sm:h-auto" />
         <div className="flex items-center space-x-5 sm:space-x-8">
-          <a href={V1_APP_URL} target="_blank" className="text-sm font-semibold">
+          {/* <a href={V1_APP_URL} target="_blank" className="text-sm font-semibold">
             <span className="hidden sm:inline-block">Go to</span> V1
-          </a>
+          </a> */}
           <a
             href={APP_URL}
             target="_blank"

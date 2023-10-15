@@ -6,7 +6,7 @@ export default function Header() {
     <div className="relative overflow-hidden">
       <div className="section pt-14 flex flex-col justify-center items-center">
         <div className="text-sm text-primary mb-3">Coindrip V2 is here</div>
-        <h1 className="font-semibold text-5xl sm:text-6xl text-center bg-gradient-to-b from-primary to-white bg-clip-text mb-8">
+        <h1 className="font-medium text-5xl sm:text-6xl text-center bg-gradient-to-b from-primary to-white bg-clip-text mb-8">
           The protocol for <br className="hidden sm:block" />
           <span className="text-transparent">real-time</span> payments
         </h1>

@@ -1,11 +1,10 @@
 export default function MultiversX() {
   return (
     <div className="section mt-20">
-      <div className="text-5xl flex-shrink-0">
+      <div className="text-4xl sm:text-5xl flex-shrink-0">
         <div className="bg-gradient-to-br from-primary via-[#B6F7F2] to-white bg-clip-text text-center">
-          Powered by the <span className="text-transparent">Multiversx</span>
-          <br />
-          blockchain
+          Powered by the <span className="text-transparent">MultiversX</span>
+          <br className="hidden sm:block" /> blockchain
         </div>
       </div>
       <p className="text-center text-lg text-neutral-400 mt-4 mb-8 sm:mb-16">

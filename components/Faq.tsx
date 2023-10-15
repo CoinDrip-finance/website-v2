@@ -41,16 +41,17 @@ const faqs = [
     {
       question: `What are the possible use-cases of ${APP_NAME}?`,
       answer:
-        "The possibilities are endless but some of the use-cases we identified might be: recurring payments, token vesting or subscriptions.",
-    },
-    {
-      question: `What do I need to use ${APP_NAME}?`,
-      answer: "A computer with internet connection, and a MultiversX Wallet with some tokens that you want to stream.",
+        "The possibilities are endless but some of the use-cases we identified might be: recurring payments, token vesting, payroll, airdrops, grants or subscriptions.",
     },
     {
       question: `Is the ${APP_NAME} protocol decentralized?`,
       answer:
-        "Yes, all the transactions are public on the blockchain, and anyone can come and interact directly with the smart contract or through another interface. Also, after leaving beta period we also aim to open-source the smart contract for everyone to check.",
+        "Yes, all the transactions are public on the blockchain, and anyone can come and interact directly with the smart contract or through another interface. Also, the entire code base is open-source for everyone to check or submit improvements.",
+    },
+    {
+      question: "How does stream NFTs work?",
+      answer:
+        "Each stream recipient is minted an NFT when a stream is created. Whoever the owner of that NFT is, has full access to withdraw funds from that stream. Once that NFT is transferred or sold to another wallet, the new wallet has full access to the funds, including the stream but not claimed ones.",
     },
   ],
 ];
@@ -60,7 +61,7 @@ export default function Faq() {
     <div className="mt-32 section" id="faq">
       <div className="sm:text-5xl text-4xl text-center">Frequently asked questions</div>
       <p className="text-center text-lg text-neutral-400 mt-6">
-        If you can&apos;t find what you&apos;re looking for, email us and we&apos;ll get back to you.
+        If you can&apos;t find what you&apos;re looking for, email or DM us and we&apos;ll get back to you.
       </p>
 
       <ul role="list" className="mx-auto mt-16 grid grid-cols-1 gap-8 lg:max-w-none lg:grid-cols-3">

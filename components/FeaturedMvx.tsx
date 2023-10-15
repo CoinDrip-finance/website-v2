@@ -13,10 +13,10 @@ export default function FeaturedMvx() {
             Programmable Money Streaming On
             <br /> MultiversX Via CoinDrip
           </div>
-          <p className="text-neutral-400 text-lg mb-10">
+          <p className="text-neutral-400 text-lg mb-10 italic">
             &quot;This is already a significant leap forward, but solutions such as the one built by the CoinDrip team
             are paving the way for new functionality and more flexibility, which will greatly improve the way we
-            interact with money.&quot; -Lucian Mincu
+            interact with money.&quot; - Lucian Mincu
           </p>
           <a
             className="primary-action-button"

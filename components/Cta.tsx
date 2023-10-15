@@ -2,7 +2,7 @@ import { APP_URL } from "@/config";
 
 export default function Cta() {
   return (
-    <div className="mt-36 flex flex-col items-center">
+    <div className="section mt-36 flex flex-col items-center">
       <div className="sm:text-9xl text-5xl text-center from-primary via-[#f1f8f7] to-white bg-clip-text bg-gradient-to-bl">
         Get started <span className="text-transparent">today</span>
       </div>

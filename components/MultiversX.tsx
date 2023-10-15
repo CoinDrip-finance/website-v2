@@ -24,7 +24,7 @@ export default function MultiversX() {
         <img
           src="/multiversx/powered_by.png"
           alt="Powered by MultiversX"
-          className="w-full sm:w-1/3 flex-1 order-first sm:order-none"
+          className="w-full sm:w-1/3 flex-1 order-first sm:order-none animate-pulse"
         />
         <div className="flex-1">
           <div className="text-sm text-primary mb-3">Low fees</div>

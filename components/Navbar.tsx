@@ -10,6 +10,14 @@ export default function Navbar() {
           {/* <a href={V1_APP_URL} target="_blank" className="text-sm font-semibold">
             <span className="hidden sm:inline-block">Go to</span> V1
           </a> */}
+          <div className="items-center space-x-3 hidden sm:flex">
+            <a href="https://twitter.com/CoinDripHQ" target="_blank">
+              <img src="/navbar/twitter.svg" alt="Twitter" className="h-6" />
+            </a>
+            <a href="https://www.linkedin.com/company/coindrip" target="_blank">
+              <img src="/navbar/linkedin.svg" alt="Twitter" className="h-6" />
+            </a>
+          </div>
           <a
             href={APP_URL}
             target="_blank"

@@ -15,13 +15,13 @@ export default function Footer() {
             </a>
           </li>
           <li>
-            <a href="https://forms.gle/gXbBRHjk3PK6vsNi6" target="_blank" rel="noreferrer" className="hover:underline">
-              Feedback
-            </a>
-          </li>
-          <li>
-            <a href="https://coindrip.finance/#faq" target="_blank" rel="noreferrer" className="hover:underline">
-              FAQ
+            <a
+              href="https://www.linkedin.com/company/coindrip"
+              target="_blank"
+              rel="noreferrer"
+              className="hover:underline"
+            >
+              LinkedIn
             </a>
           </li>
           <li>

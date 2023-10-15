@@ -1,7 +1,7 @@
 export default function FeaturedMvx() {
   return (
     <div className="mt-56 relative hidden sm:block">
-      <div className="section flex space-x-24">
+      <div className="section flex space-x-24 sm:items-center">
         <img src="/multiversx/featured_on_mvx.png" alt="Featured by MultiversX" className="w-1/2" />
         <div className="flex-1">
           <div className="text-5xl mb-10">

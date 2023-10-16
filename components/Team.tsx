@@ -7,7 +7,7 @@ export default function Team() {
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-12 sm:gap-20">
         <div className="w-full rounded-2xl bg-gradient-to-bl to-[#1F1F1F] from-[#161616] p-[2px]">
           <div className="h-full w-full bg-gradient-to-tr from-[#060606] to-[#141414] rounded-2xl py-6 px-8">
-            <img src="/team/alexandra.png" alt="Alexandra" className="h-64 mx-auto" />
+            <img src="/team/alexandra.png" alt="Alexandra" className="h-52 mx-auto" />
             <div className="mt-4 mb-6 text-4xl">Alexandra Nadia Bălan</div>
             <div className="flex items-center justify-between">
               <div className="font-medium text-primary text-sm">Marketing specialist</div>
@@ -24,7 +24,7 @@ export default function Team() {
         </div>
         <div className="w-full rounded-2xl bg-gradient-to-bl to-[#1F1F1F] from-[#161616] p-[2px]">
           <div className="h-full w-full bg-gradient-to-tr from-[#060606] to-[#141414] rounded-2xl py-6 px-8">
-            <img src="/team/razvan.png" alt="Razvan" className="h-64 mx-auto" />
+            <img src="/team/razvan.png" alt="Razvan" className="h-52 mx-auto" />
             <div className="mt-4 mb-6 text-4xl">
               Răzvan
               <br />
@@ -45,7 +45,7 @@ export default function Team() {
         </div>
         <div className="w-full rounded-2xl bg-gradient-to-bl to-[#1F1F1F] from-[#161616] p-[2px]">
           <div className="h-full w-full bg-gradient-to-tr from-[#060606] to-[#141414] rounded-2xl py-6 px-8">
-            <img src="/team/valeriu.png" alt="Valeriu" className="h-64 mx-auto" />
+            <img src="/team/valeriu.png" alt="Valeriu" className="h-52 mx-auto" />
             <div className="mt-4 mb-6 text-4xl">
               Moldovan
               <br />

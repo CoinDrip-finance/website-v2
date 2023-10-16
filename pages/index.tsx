@@ -6,7 +6,7 @@ import Header from "@/components/Header";
 import MultiversX from "@/components/MultiversX";
 import Navbar from "@/components/Navbar";
 import Team from "@/components/Team";
-import Tweets from "@/components/Tweets";
+import Testimonials from "@/components/Testimonials";
 
 import Footer from "../components/Footer";
 
@@ -29,7 +29,9 @@ export default function Home() {
 
       <Faq />
 
-      <Tweets />
+      {/* <Tweets /> */}
+
+      <Testimonials />
 
       <Footer />
     </main>

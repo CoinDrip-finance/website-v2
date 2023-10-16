@@ -45,11 +45,10 @@ const reviews = [
     url: "https://twitter.com/arcstake/status/1616138363295121408",
   },
   {
-    name: "Stephen S.",
-    username: "@the_economystic",
-    body: "Introducing Coindrip built by a group of devs led by Razvan Statescu enables recurring payments, token vesting, subscriptions using MultiversX Smart Contracts Framework.",
-    img: "https://pbs.twimg.com/profile_images/1713331781313929216/7d1LAjXO_400x400.jpg",
-    url: "https://twitter.com/the_economystic/status/1616173066119413762",
+    name: "Longin",
+    username: "@Longin_X",
+    body: "OneDex has utilized the revolutionary payment streaming capabilities of CoinDrip from Day 1. Team and Advisor token allocations were easily set up in the protocol, negating the need for time intensive transactions on a monthly basis. A true game changer in the industry!",
+    img: "https://pbs.twimg.com/profile_images/1709131635726188544/d1eeSCLj_400x400.jpg",
   },
 ];
 

@@ -29,8 +29,6 @@ export default function Home() {
 
       <Faq />
 
-      {/* <Tweets /> */}
-
       <Testimonials />
 
       <Footer />

@@ -1,3 +1,5 @@
+import { ArrowRightIcon } from "@heroicons/react/20/solid";
+
 export default function MultiversX() {
   return (
     <div className="section mt-20">
@@ -34,6 +36,14 @@ export default function MultiversX() {
           </p>
         </div>
       </div>
+
+      <a href="https://github.com/CoinDrip-finance" target="_blank" className="hover:underline">
+        <div className="flex items-center justify-center mt-10">
+          <img src="/multiversx/github_icon.svg" alt="Github" />
+          <span className="pl-3 pr-1 font-medium text-sm">Our code-base is fully open-source</span>
+          <ArrowRightIcon className="h-4" />
+        </div>
+      </a>
     </div>
   );
 }

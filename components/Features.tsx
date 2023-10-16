@@ -1,5 +1,3 @@
-import { BanknotesIcon, ClockIcon, PhotoIcon } from "@heroicons/react/24/outline";
-
 export default function Features() {
   return (
     <div className="section mt-14 sm:my-40">
@@ -23,41 +21,49 @@ export default function Features() {
         </div>
       </div>
 
-      <div className="mt-14 sm:mt-24 flex sm:space-x-9 flex-col sm:flex-row space-y-6 sm:space-y-0 sm:items-center">
-        <div className="flex-1">
-          <div className="w-full rounded-2xl bg-gradient-to-bl from-[#010D0C] to-[#027B72] p-[2px]">
-            <div className="flex flex-col items-start h-full w-full bg-gradient-to-b to-[#013C38] via-black from-black rounded-2xl p-11 space-y-7">
-              <BanknotesIcon className="h-12" />
-              <h3 className="text-2xl">Start streaming</h3>
-              <p className="text-neutral-400 text-lg">
-                With a simple, one-time deposit, you can handle vesting, payroll, airdrops, grants and many other things
-                in a descentralized way.
-              </p>
-            </div>
+      <div className="mt-14 sm:mt-24 flex sm:space-x-9 flex-col sm:flex-row space-y-6 sm:space-y-0">
+        <div className="w-full rounded-2xl bg-gradient-to-bl from-[#010D0C] to-[#027B72] p-[2px]">
+          <div className="flex flex-col items-start h-full w-full bg-gradient-to-b to-[#013C38] via-black from-black rounded-2xl p-10 space-y-7">
+            {/* <BanknotesIcon className="h-12" /> */}
+            <img src="/features/start_streaming.svg" className="h-12 w-auto" />
+            <h3 className="text-2xl">Start streaming</h3>
+            <p className="text-neutral-400">
+              With a simple, one-time deposit, you can handle vesting, payroll, airdrops, grants and many other things
+              in a descentralized way.
+            </p>
           </div>
         </div>
-        <div className="flex-1">
-          <div className="w-full rounded-2xl bg-gradient-to-bl from-[#010D0C] to-[#027B72] p-[2px]">
-            <div className="flex flex-col items-start h-full w-full bg-black rounded-2xl p-11 space-y-7">
-              <PhotoIcon className="h-12" />
-              <h3 className="text-2xl">NFTs</h3>
-              <p className="text-neutral-400 text-lg">
-                Each stream recipient is minted an NFT giving him full access to the stream. This makes CoinDrip highly
-                composable with other DeFi protocols.
-              </p>
-            </div>
+
+        <div className="w-full rounded-2xl bg-gradient-to-tr from-[#010D0C] to-[#027B72] p-[2px]">
+          <div className="flex flex-col items-start h-full w-full bg-black rounded-2xl p-10 space-y-7">
+            <img src="/features/nft.svg" className="h-12 w-auto" />
+            <h3 className="text-2xl">NFTs</h3>
+            <p className="text-neutral-400">
+              Each stream recipient is minted an NFT giving him full access to the stream. This makes CoinDrip highly
+              composable with other DeFi protocols.
+            </p>
           </div>
         </div>
-        <div className="flex-1">
-          <div className="w-full rounded-2xl bg-gradient-to-bl from-[#010D0C] to-[#027B72] p-[2px]">
-            <div className="flex flex-col items-start h-full w-full bg-black rounded-2xl p-11 space-y-7">
-              <ClockIcon className="h-12" />
-              <h3 className="text-2xl">Real-time claim</h3>
-              <p className="text-neutral-400 text-lg">
-                Payments shouldn&apos;t be static. With CoinDrip your tokens unlock each second and you can withdraw
-                them whenever you want.
-              </p>
-            </div>
+
+        <div className="w-full rounded-2xl bg-gradient-to-bl from-[#010D0C] to-[#027B72] p-[2px]">
+          <div className="flex flex-col items-start h-full w-full bg-black rounded-2xl p-10 space-y-7">
+            <img src="/features/manage.svg" className="h-12 w-auto" />
+            <h3 className="text-2xl">Manage streams</h3>
+            <p className="text-neutral-400">
+              You can see and manage all of your incoming or created streams, check the status and quickly get an
+              overview
+            </p>
+          </div>
+        </div>
+
+        <div className="w-full rounded-2xl bg-gradient-to-tr from-[#010D0C] to-[#027B72] p-[2px]">
+          <div className="flex flex-col items-start h-full w-full bg-black rounded-2xl p-10 space-y-7">
+            <img src="/features/claim.svg" className="h-12 w-auto" />
+            <h3 className="text-2xl">Real-time claim</h3>
+            <p className="text-neutral-400">
+              Payments shouldn&apos;t be static. With CoinDrip your tokens unlock each second and you can withdraw them
+              whenever you want.
+            </p>
           </div>
         </div>
       </div>

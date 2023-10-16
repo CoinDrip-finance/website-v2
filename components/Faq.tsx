@@ -39,6 +39,11 @@ const faqs = [
   ],
   [
     {
+      question: "How does stream NFTs work?",
+      answer:
+        "Each stream recipient is minted an NFT when a stream is created. Whoever the owner of that NFT is, has full access to withdraw funds from that stream. Once that NFT is transferred or sold to another wallet, the new wallet has full access to the funds, including the stream but not claimed ones.",
+    },
+    {
       question: `What are the possible use-cases of ${APP_NAME}?`,
       answer:
         "The possibilities are endless but some of the use-cases we identified might be: recurring payments, token vesting, payroll, airdrops, grants or subscriptions.",
@@ -47,11 +52,6 @@ const faqs = [
       question: `Is the ${APP_NAME} protocol decentralized?`,
       answer:
         "Yes, all the transactions are public on the blockchain, and anyone can come and interact directly with the smart contract or through another interface. Also, the entire code base is open-source for everyone to check or submit improvements.",
-    },
-    {
-      question: "How does stream NFTs work?",
-      answer:
-        "Each stream recipient is minted an NFT when a stream is created. Whoever the owner of that NFT is, has full access to withdraw funds from that stream. Once that NFT is transferred or sold to another wallet, the new wallet has full access to the funds, including the stream but not claimed ones.",
     },
   ],
 ];

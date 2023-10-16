@@ -24,7 +24,7 @@ export default function Features2() {
       </div>
 
       <MagicContainer className={"mt-14 sm:mt-24 grid gap-4 grid-cols-1 sm:grid-cols-4"}>
-        <MagicCard className="flex w-full cursor-pointer flex-col items-center justify-center overflow-hidden p-10 shadow-2xl bg-gradient-to-bl from-[#010D0C] to-[#027B72]">
+        <MagicCard className="flex w-full cursor-pointer flex-col overflow-hidden p-10 shadow-2xl bg-gradient-to-bl from-[#010D0C] to-[#027B72]">
           <div className="z-10">
             <img src="/features/start_streaming.svg" className="h-12 w-auto" />
             <h3 className="text-2xl my-6">Start streaming</h3>
@@ -35,7 +35,7 @@ export default function Features2() {
           </div>
           <div className="pointer-events-none absolute inset-[2px] rounded-2xl bg-gradient-to-b to-[#013C38] via-black from-black" />
         </MagicCard>
-        <MagicCard className="flex w-full cursor-pointer flex-col items-center justify-center overflow-hidden p-10 shadow-2xl bg-gradient-to-tr from-[#010D0C] to-[#027B72]">
+        <MagicCard className="flex w-full cursor-pointer flex-col overflow-hidden p-10 shadow-2xl bg-gradient-to-tr from-[#010D0C] to-[#027B72]">
           <div className="z-10">
             <img src="/features/nft.svg" className="h-12 w-auto" />
             <h3 className="text-2xl my-6">NFTs</h3>
@@ -45,7 +45,7 @@ export default function Features2() {
             </p>
           </div>
         </MagicCard>
-        <MagicCard className="flex w-full cursor-pointer flex-col items-center justify-center overflow-hidden p-10 shadow-2xl bg-gradient-to-bl from-[#010D0C] to-[#027B72]">
+        <MagicCard className="flex w-full cursor-pointer flex-col overflow-hidden p-10 shadow-2xl bg-gradient-to-bl from-[#010D0C] to-[#027B72]">
           <div className="z-10">
             <img src="/features/manage.svg" className="h-12 w-auto" />
             <h3 className="text-2xl my-6">Manage streams</h3>
@@ -55,7 +55,7 @@ export default function Features2() {
             </p>
           </div>
         </MagicCard>
-        <MagicCard className="flex w-full cursor-pointer flex-col items-center justify-center overflow-hidden p-10 shadow-2xl bg-gradient-to-tr from-[#010D0C] to-[#027B72]">
+        <MagicCard className="flex w-full cursor-pointer flex-col overflow-hidden p-10 shadow-2xl bg-gradient-to-tr from-[#010D0C] to-[#027B72]">
           <div className="z-10">
             <img src="/features/claim.svg" className="h-12 w-auto" />
             <h3 className="text-2xl my-6">Real-time claim</h3>

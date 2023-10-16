@@ -23,7 +23,7 @@ export default function Features2() {
         </div>
       </div>
 
-      <MagicContainer className={"mt-14 sm:mt-24 grid gap-4 grid-cols-1 sm:grid-cols-4"}>
+      <MagicContainer className={"mt-14 sm:mt-24 grid sm:gap-4 gap-8 grid-cols-1 sm:grid-cols-4"}>
         <MagicCard className="flex w-full cursor-pointer flex-col overflow-hidden p-10 shadow-2xl bg-gradient-to-bl from-[#010D0C] to-[#027B72]">
           <div className="z-10">
             <img src="/features/start_streaming.svg" className="h-12 w-auto" />

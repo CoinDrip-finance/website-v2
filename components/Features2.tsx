@@ -33,6 +33,7 @@ export default function Features2() {
               in a descentralized way.
             </p>
           </div>
+          <div className="pointer-events-none absolute inset-[2px] rounded-2xl bg-gradient-to-b to-[#013C38] via-black from-black" />
         </MagicCard>
         <MagicCard className="flex w-full cursor-pointer flex-col items-center justify-center overflow-hidden p-10 shadow-2xl bg-gradient-to-tr from-[#010D0C] to-[#027B72]">
           <div className="z-10">

@@ -2,6 +2,7 @@ import Cta from "@/components/Cta";
 import Faq from "@/components/Faq";
 import FeaturedMvx from "@/components/FeaturedMvx";
 import Features from "@/components/Features";
+import Features2 from "@/components/Features2";
 import Header from "@/components/Header";
 import MultiversX from "@/components/MultiversX";
 import Navbar from "@/components/Navbar";
@@ -18,6 +19,8 @@ export default function Home() {
       <Header />
 
       <Features />
+
+      <Features2 />
 
       <MultiversX />
 

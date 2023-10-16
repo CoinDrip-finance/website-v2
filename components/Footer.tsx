@@ -25,6 +25,16 @@ export default function Footer() {
             </a>
           </li>
           <li>
+            <a href="https://github.com/CoinDrip-finance" target="_blank" rel="noreferrer" className="hover:underline">
+              Github
+            </a>
+          </li>
+          <li>
+            <a href="https://t.me/coindrip_finance" target="_blank" rel="noreferrer" className="hover:underline">
+              Telegram
+            </a>
+          </li>
+          <li>
             <a href="mailto:contact@coindrip.finance" className="hover:underline">
               contact@coindrip.finance
             </a>

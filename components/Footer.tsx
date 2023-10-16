@@ -50,7 +50,7 @@ export default function Footer() {
       <img
         src="/footer-gradient.png"
         alt=""
-        className="sm:hidden absolute bottom-0 inset-x-0 mx-auto pointer-events-none h-1/3 object-cover"
+        className="sm:hidden absolute bottom-0 inset-x-0 mx-auto pointer-events-none h-full object-cover"
       />
     </div>
   );

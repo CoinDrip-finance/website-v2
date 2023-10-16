@@ -108,7 +108,7 @@ const ReviewCard = ({
 
 export default function Testimonials() {
   return (
-    <div className="relative flex  flex-col items-center justify-center gap-4 overflow-hidden py-36">
+    <div className="relative flex  flex-col items-center justify-center gap-4 overflow-hidden pt-36 pb-8 sm:py-36">
       <Marquee pauseOnHover className="[--duration:40s]">
         {reviews.map((review) => (
           <ReviewCard key={review.username} {...review} />

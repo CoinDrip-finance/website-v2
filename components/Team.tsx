@@ -1,10 +1,10 @@
 export default function Team() {
   return (
-    <div className="mt-32 section">
+    <div className="mt-32 section max-w-screen-lg">
       <div className="text-sm text-primary mb-3 text-center">Who we are</div>
       <div className="text-5xl text-center mb-10">Team</div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-3 gap-12 sm:gap-20">
+      <div className="grid grid-cols-1 sm:grid-cols-3 gap-12 sm:gap-8">
         <div className="w-full rounded-2xl bg-gradient-to-bl to-[#1F1F1F] from-[#161616] p-[2px]">
           <div className="h-full w-full bg-gradient-to-tr from-[#060606] to-[#141414] rounded-2xl py-6 px-8">
             <img src="/team/alexandra.png" alt="Alexandra" className="h-52 mx-auto" />

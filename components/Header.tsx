@@ -1,5 +1,6 @@
 import { APP_URL, V1_APP_URL } from "@/config";
 import { ArrowRightIcon } from "@heroicons/react/24/outline";
+import { PlayCircleIcon } from "@heroicons/react/24/solid";
 
 export default function Header() {
   return (
@@ -31,8 +32,15 @@ export default function Header() {
           </a>
         </div>
 
-        <img src="/header/app.png" alt="Coindrip App" className="mt-14 hidden sm:block" />
-        <img src="/header/app-mobile.png" alt="Coindrip App" className="mt-14 sm:hidden" />
+        {/* // TODO: Change this */}
+        <a href="#" target="_blank">
+          <div className="relative cursor-pointer group mt-14">
+            <img src="/header/app.png" alt="Coindrip App" className="hidden sm:block" />
+            <img src="/header/app-mobile.png" alt="Coindrip App" className="sm:hidden" />
+
+            <PlayCircleIcon className="h-24 w-24 text-white absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-60 sm:opacity-30 group-hover:opacity-60 group-hover:scale-105 transition ease-in-out duration-500" />
+          </div>
+        </a>
       </div>
 
       <img

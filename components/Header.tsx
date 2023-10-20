@@ -32,8 +32,7 @@ export default function Header() {
           </a>
         </div>
 
-        {/* // TODO: Change this */}
-        <a href="#" target="_blank">
+        <a href="https://www.youtube.com/watch?v=15X6MdfaBkE" target="_blank">
           <div className="relative cursor-pointer group mt-14">
             <img src="/header/app.png" alt="Coindrip App" className="hidden sm:block" />
             <img src="/header/app-mobile.png" alt="Coindrip App" className="sm:hidden" />

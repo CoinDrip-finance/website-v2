@@ -20,14 +20,14 @@ const reviews = [
     name: "Dan Voicu",
     username: "@iamdanvoicu",
     body: "Blockchains have been great at showing that things can be done differently, more efficiently and conveniently. Programmable Money Streaming on MultiversX via Coindrip. The MVP is live on the Devnet.",
-    img: "https://pbs.twimg.com/profile_images/1707460479289839616/NWKyTs_l_400x400.jpg",
+    img: "https://pbs.twimg.com/profile_images/1716432222817804288/cpayq_6J_400x400.jpg",
     url: "https://twitter.com/iamdanvoicu/status/1616055756062605313",
   },
   {
     name: "Robert Sasu",
     username: "@SasuRobert",
     body: "Programmable money streaming makes any freelancer's job easier. But not only, project owners can control the flow in an easy way. Subscriptions and recurring payments, we like those as well. Everybody is using those on a general basis.",
-    img: "https://pbs.twimg.com/profile_images/1708748909776883712/cuzf1Lsh_400x400.jpg",
+    img: "https://pbs.twimg.com/profile_images/1723909179482796032/8CvdZs2n_400x400.jpg",
     url: "https://twitter.com/SasuRobert/status/1616080255889842178",
   },
   {
@@ -48,7 +48,7 @@ const reviews = [
     name: "Longin",
     username: "@Longin_X",
     body: "OneDex has utilized the revolutionary payment streaming capabilities of CoinDrip from Day 1. Team and Advisor token allocations were easily set up in the protocol, negating the need for time intensive transactions on a monthly basis. A true game changer in the industry!",
-    img: "https://pbs.twimg.com/profile_images/1709131635726188544/d1eeSCLj_400x400.jpg",
+    img: "https://pbs.twimg.com/profile_images/1719261382032367616/Hcwb9-u3_400x400.jpg",
   },
 ];
 

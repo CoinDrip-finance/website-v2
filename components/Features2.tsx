@@ -30,7 +30,7 @@ export default function Features2() {
             <h3 className="text-2xl my-6">Start streaming</h3>
             <p className="text-neutral-400">
               With a simple, one-time deposit, you can handle vesting, payroll, airdrops, grants and many other things
-              in a descentralized way.
+              in a decentralized way.
             </p>
           </div>
           <div className="pointer-events-none absolute inset-[2px] rounded-2xl bg-gradient-to-b to-[#013C38] via-black from-black" />

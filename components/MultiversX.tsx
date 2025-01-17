@@ -5,21 +5,20 @@ export default function MultiversX() {
     <div className="section mt-20">
       <div className="text-4xl sm:text-5xl flex-shrink-0">
         <div className="bg-gradient-to-br from-primary via-[#B6F7F2] to-white bg-clip-text text-center">
-          Powered by the <span className="text-transparent">MultiversX</span>
-          <br className="hidden sm:block" /> blockchain
+          Available on <span className="text-transparent">Sui</span>
+          <br className="hidden sm:block" /> and <span className="text-transparent">MultiversX</span>
         </div>
       </div>
       <p className="text-center text-lg text-neutral-400 mt-4 mb-8 sm:mb-16">
-        CoinDrip is compatible with EGLD or any token like USDC.
+        Coindrip is compatible with any token like USDC or SUI
       </p>
 
       <div className="flex items-center sm:space-x-16 flex-col sm:flex-row space-y-7 sm:space-y-0">
         <div className="flex-1 mt-8 sm:mt-0">
-          <div className="text-sm text-primary mb-3">Scalable</div>
-          <div className="text-3xl mb-3">Adaptive state sharding</div>
+          <div className="text-sm text-primary mb-3">MultiversX</div>
+          <div className="text-3xl mb-3">The Internet-Scale Blockchain</div>
           <p className="text-neutral-400">
-            Adaptive State Sharding brings a 1000x improvement in throughput compared to previous blockchain iterations
-            by enabling parallel transaction processing.
+            MultiversX, the EGLD network, is a distributed blockchain network for next-gen applications. Decentralized via 3,000+ nodes, scalable through sharding, fast, secure & green.
           </p>
         </div>
         <img
@@ -28,11 +27,10 @@ export default function MultiversX() {
           className="w-full sm:w-1/3 flex-1 order-first sm:order-none animate-pulse"
         />
         <div className="flex-1">
-          <div className="text-sm text-primary mb-3">Low fees</div>
-          <div className="text-3xl mb-3">Elrond Standard Digital Token (ESDT)</div>
+          <div className="text-sm text-primary mb-3">Sui</div>
+          <div className="text-2xl mb-3">Sui delivers the benefits of Web3 with the ease of Web2</div>
           <p className="text-neutral-400">
-            The ESDT token model enables true ownership of assets, advanced programmability, and low transfer fees,
-            making it an essential foundation for building more efficient and robust DeFi products.
+            Sui is a next-generation Layer 1 blockchain designed to be infinitely scalable and lightning-fast, delivering the benefits of Web3 with the ease of Web2. It features a unique architecture that allows for massive parallelization of transactions, reducing latency and enhancing performance.
           </p>
         </div>
       </div>

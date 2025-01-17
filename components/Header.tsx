@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <div className="relative overflow-hidden">
       <div className="section pt-14 flex flex-col justify-center items-center">
-        <div className="text-sm text-primary mb-3">Coindrip V2 is here 🎉</div>
+        <div className="text-sm text-primary mb-3">Coindrip is coming to Sui in Q1 🎉</div>
         <h1 className="font-medium text-5xl sm:text-6xl text-center bg-gradient-to-b from-primary to-white bg-clip-text mb-8">
           The protocol for <br className="hidden sm:block" />
           <span className="text-transparent">real-time</span> payments
@@ -18,28 +18,27 @@ export default function Header() {
 
         <div className="flex items-center sm:space-x-16 flex-col sm:flex-row space-y-6 sm:space-y-0 w-full sm:w-auto">
           <a
-            href={APP_URL}
-            target="_blank"
-            className="primary-action-button block sm:inline-block w-full sm:w-auto text-center"
+            href="#"
+            className="primary-action-button block sm:inline-block w-full sm:w-auto text-center opacity-50"
           >
-            Try Devnet demo
+            Try Sui devnet demo
           </a>
           {/* <a href={DOCS_URL} target="_blank" className="font-medium text-sm inline-flex items-center">
             Read docs <ArrowRightIcon className="h-4 w-4 ml-1" />
           </a> */}
           <a href={V1_APP_URL} target="_blank" className="font-medium text-sm inline-flex items-center">
-            Open CoinDrip V1 <ArrowRightIcon className="h-4 w-4 ml-1" />
+            Open Coindrip MultiversX <ArrowRightIcon className="h-4 w-4 ml-1" />
           </a>
         </div>
 
-        <a href="https://www.youtube.com/watch?v=15X6MdfaBkE" target="_blank">
-          <div className="relative cursor-pointer group mt-14">
-            <img src="/header/app.png" alt="Coindrip App" className="hidden sm:block" />
-            <img src="/header/app-mobile.png" alt="Coindrip App" className="sm:hidden" />
+        {/* <a href="https://www.youtube.com/watch?v=15X6MdfaBkE" target="_blank"> */}
+        <div className="relative group mt-14">
+          <img src="/header/app.png" alt="Coindrip App" className="hidden sm:block" />
+          <img src="/header/app-mobile.png" alt="Coindrip App" className="sm:hidden" />
 
-            <PlayCircleIcon className="h-24 w-24 text-white absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-60 sm:opacity-30 group-hover:opacity-60 group-hover:scale-105 transition ease-in-out duration-500" />
-          </div>
-        </a>
+          {/* <PlayCircleIcon className="h-24 w-24 text-white absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-60 sm:opacity-30 group-hover:opacity-60 group-hover:scale-105 transition ease-in-out duration-500" /> */}
+        </div>
+        {/* </a> */}
       </div>
 
       <img

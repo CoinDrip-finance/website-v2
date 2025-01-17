@@ -20,14 +20,13 @@ export default function Navbar() {
             target="_blank"
             className="text-sm font-semibold py-2  px-4 sm:px-6 bg-neutral-800 rounded-lg hover:bg-opacity-75"
           >
-            <span className="hidden sm:inline-block">Go to</span> V1
+            <span className="hidden sm:inline-block">Go to</span> MvX
           </a>
           <a
-            href={APP_URL}
-            target="_blank"
-            className="text-sm font-semibold py-2  px-4 sm:px-6 bg-neutral-800 rounded-lg hover:bg-opacity-75"
+            href="#"
+            className="text-sm font-semibold py-2  px-4 sm:px-6 bg-neutral-800 rounded-lg opacity-50"
           >
-            <span className="hidden sm:inline-block">Open</span> App
+            <span className="hidden sm:inline-block">Go to</span> Sui
           </a>
         </div>
       </div>

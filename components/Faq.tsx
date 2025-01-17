@@ -1,11 +1,11 @@
 const APP_NAME = "Coindrip";
 const faqs = [
   [
-    {
-      question: "What are ESDTs?",
-      answer:
-        "The MultiversX network natively supports the issuance of custom tokens, without the need for contracts such as ERC20, but addressing the same use-cases. And due to the native in-protocol support, transactions with custom tokens do not require the VM at all. In effect, this means that custom tokens are as fast and as scalable as the native EGLD token itself.",
-    },
+    // {
+    //   question: "What are ESDTs?",
+    //   answer:
+    //     "The MultiversX network natively supports the issuance of custom tokens, without the need for contracts such as ERC20, but addressing the same use-cases. And due to the native in-protocol support, transactions with custom tokens do not require the VM at all. In effect, this means that custom tokens are as fast and as scalable as the native EGLD token itself.",
+    // },
     {
       question: "How does token streaming works?",
       answer:
@@ -16,20 +16,20 @@ const faqs = [
       answer:
         "Let's say you want to send 2000 USDC to John from 1 Jan to 1 Feb. You'll create the stream with all these details. John's funds will start to unlock from 1 Jan, each second. For example, on 15 Jan John will be able to claim half of his funds.",
     },
-  ],
-  [
     {
       question: "How can I start streaming tokens?",
       answer: `You need to connect your wallet on ${APP_NAME}, click on the Create Stream button, fill in the recipient, amount of tokens and the duration, click the button and sign the transaction. That's it!`,
     },
-    {
-      question: "Where are the tokens held?",
-      answer: "From the deposit until the recipient claims them, the token are locked inside our smart contract.",
-    },
+  ],
+  [
+    // {
+    //   question: "Where are the tokens held?",
+    //   answer: "From the deposit until the recipient claims them, the token are locked inside our smart contract.",
+    // },
     {
       question: "Can I cancel a stream?",
       answer:
-        "Yes, the sender and recipient can cancel a stream at any time if the stream was not marked as non-cancellable by the sender during creation. If the stream is canceled before the start time, all funds are returned to the sender. If you cancel the stream after the start time, but before the end time, the amount that was stream so far is transferred to the recipient and the remaining tokens come back to your wallet. If the stream is canceled after the end time, all funds are transferred to the recipient.",
+        "Yes, the recipient can cancel a stream at any time if the stream was not marked as non-cancellable by the sender during creation. If the stream is canceled before the start time, all funds are returned to the sender. If you cancel the stream after the start time, but before the end time, the amount that was stream so far is transferred to the recipient and the remaining tokens come back to your wallet. If the stream is canceled after the end time, all funds are transferred to the recipient.",
     },
     {
       question: "Can I edit a stream?",

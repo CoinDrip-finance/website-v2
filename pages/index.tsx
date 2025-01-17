@@ -25,7 +25,7 @@ export default function Home() {
 
       <FeaturedMvx />
 
-      <Cta />
+      {/* <Cta /> */}
 
       <Team />
 

@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <div className="relative overflow-hidden">
       <div className="section pt-14 flex flex-col justify-center items-center">
-        <div className="text-sm text-primary mb-3">Coindrip is coming to Sui in Q1 🎉</div>
+        <div className="text-sm text-primary mb-3">Coindrip is coming to Sui in Q2 🎉</div>
         <h1 className="font-medium text-5xl sm:text-6xl text-center bg-gradient-to-b from-primary to-white bg-clip-text mb-8">
           The protocol for <br className="hidden sm:block" />
           <span className="text-transparent">real-time</span> payments
@@ -19,15 +19,15 @@ export default function Header() {
         <div className="flex items-center sm:space-x-16 flex-col sm:flex-row space-y-6 sm:space-y-0 w-full sm:w-auto">
           <a
             href="#"
-            className="primary-action-button block sm:inline-block w-full sm:w-auto text-center opacity-50"
+            className="primary-action-button block sm:inline-block w-full sm:w-auto text-center hover:opacity-50 opacity-50"
           >
-            Try Sui devnet demo
+            Soon live on Sui Devnet
           </a>
           {/* <a href={DOCS_URL} target="_blank" className="font-medium text-sm inline-flex items-center">
             Read docs <ArrowRightIcon className="h-4 w-4 ml-1" />
           </a> */}
-          <a href={V1_APP_URL} target="_blank" className="font-medium text-sm inline-flex items-center">
-            Open Coindrip MultiversX <ArrowRightIcon className="h-4 w-4 ml-1" />
+          <a href="https://x.com/CoinDripHQ" target="_blank" className="font-medium text-sm inline-flex items-center">
+            Follow us on X <ArrowRightIcon className="h-4 w-4 ml-1" />
           </a>
         </div>
 

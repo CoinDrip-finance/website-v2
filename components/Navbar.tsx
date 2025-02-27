@@ -26,7 +26,7 @@ export default function Navbar() {
             href="#"
             className="text-sm font-semibold py-2  px-4 sm:px-6 bg-neutral-800 rounded-lg opacity-50"
           >
-            <span className="hidden sm:inline-block">Go to</span> Sui
+            <span className="hidden sm:inline-block">Soon on</span> Sui
           </a>
         </div>
       </div>
